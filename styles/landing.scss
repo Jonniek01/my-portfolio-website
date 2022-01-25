@@ -1,3 +1,8 @@
+
+$color1:#FFFFFF;
+$color2:#65ff78;
+$back1:#1E2326;
+$back2:#252A2E;
 .landing{
       background-image: url("../resources/top_sider_bg.jpg");
 
@@ -7,4 +12,103 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      justify-content: center;
+
+}
+landing-container{
+  text-align: center;
+}
+
+// Variables
+$color: #65ff78;
+
+
+
+.circle-ripple {
+  background-color: #35ffc3;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  animation: ripple 0.7s linear infinite;
+  z-index:1;
+
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    }
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba($color, 0.3),
+                0 0 0 1em rgba($color, 0.3),
+                0 0 0 3em rgba($color, 0.3),
+                0 0 0 5em rgba($color, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 1em rgba($color, 0.3),
+                0 0 0 3em rgba($color, 0.3),
+                0 0 0 5em rgba($color, 0.3),
+                0 0 0 8em rgba($color, 0);
+  }
+}
+
+
+.intro{
+  margin-top: 15%;
+  padding-top:30%;
+  background-image: linear-gradient(transparent 30%, $back2 70%);
+    height:40vh;
+  z-index:0;
+  text-align: center;
+  h2{
+    margin-bottom:5%;
+  }
+  h6{
+    margin-bottom:10%;
+  }
+
+}
+
+
+.social{
+  li{
+      a{color: white;
+          border: 1px solid white;
+          border-radius: 50%;
+          font-size: 200%;
+          text-align: center;
+          transition: 0.5s;
+          i{width: 49.3321px;
+              height:66.665px;
+              border-radius: 50%;
+              
+
+
+          }
+      }
+      .f:hover{
+          background-color:#4267B2;
+      }
+      .w:hover{
+          background-color:	green;
+      }
+      .l:hover{
+          background-color:#0077b5;
+      }
+      .i:hover{
+        color:rgb(245, 10, 147);
+          background-color:white;
+      }
+
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .intro{
+  margin-top: 15%;
+  padding-top:20%;
+  }
+
 }

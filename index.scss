@@ -1,6 +1,6 @@
 
 $color1:#FFFFFF;
-$color2:#1CB698;
+$color2:#65ff78;
 $back1:#1E2326;
 $back2:#252A2E;
 
@@ -13,8 +13,11 @@ body,html{
     overflow-x: hidden;
     font-family: 'Righteous', cursive;
     
+    
 }
 body{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
