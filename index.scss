@@ -1,0 +1,20 @@
+
+$color1:#FFFFFF;
+$color2:#1CB698;
+$back1:#1E2326;
+$back2:#252A2E;
+
+
+body,html{
+    margin:0;
+    background-color: $back1;
+    color:$color1;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Righteous', cursive;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
