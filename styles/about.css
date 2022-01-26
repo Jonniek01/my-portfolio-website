@@ -6,6 +6,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 5%;
 }
 
 .about-head-container h2 {
@@ -77,6 +78,48 @@ a {
   color: inherit !important;
 }
 
+.interests-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.interest {
+  background-color: #252A2E;
+  max-width: 120px;
+  height: 90px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.5s  ease-out  0s;
+  transition: all 0.5s  ease-out  0s;
+}
+
+.interest i {
+  color: white;
+  font-size: 150%;
+  text-align: center;
+}
+
+.interest h6 {
+  text-align: center;
+}
+
+.interest:hover {
+  background-color: #65ff78;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
   .about {
     margin: 4%;
@@ -84,15 +127,30 @@ a {
   .about-details-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30% auto;
-        grid-template-columns: 30% auto;
+    -ms-grid-columns: 30% 50%;
+        grid-template-columns: 30% 50%;
     width: 100vw;
+  }
+  .interests {
+    margin-top: 2%;
   }
   .interest {
     margin-left: 20%;
   }
   .personal {
     margin-left: 20%;
+  }
+  .interests-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .interests-container {
+    max-width: 90%;
   }
 }
 /*# sourceMappingURL=about.css.map */

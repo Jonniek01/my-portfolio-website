@@ -9,6 +9,7 @@ $back2:#252A2E;
     margin: 2%;
     display: flex;
     justify-content: center;
+    margin-top:5%;
 }
 .about-head-container{
     h2{
@@ -78,6 +79,41 @@ a{
 }
 
 
+.interests-container{
+    display:grid;
+
+    grid-template-columns: 1fr 1fr;
+}
+.interest{
+    background-color:$back2;
+    max-width:120px;
+    height:90px;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-bottom:20px;
+    transition:all 0.5s  ease-out  0s;
+
+    i{
+        color:white;
+        font-size:150%;
+        text-align:center;
+
+    }
+    h6{
+        text-align:center;
+
+
+    }
+}
+.interest:hover{
+    background-color:$color2;
+    cursor:pointer;
+
+
+}
+
 
 @media only screen and (min-width: 768px) {
     .about{
@@ -86,16 +122,35 @@ a{
     }    
     .about-details-container{
         display:grid;
-        grid-template-columns: 30% auto;
+        grid-template-columns: 30% 50%;
         width:100vw;
     
     }
+    .interests{
+        margin-top: 2%;
+    
+    }    
     .interest{
         margin-left:20%;
     }
     .personal{
         margin-left:20%;
     }    
+
+
+
+.interests-container{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
     
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .interests-container{
+       max-width:90%;
+}
 
 }
