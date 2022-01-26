@@ -1,6 +1,6 @@
 .landing {
   background-image: url("../resources/top_sider_bg.jpg");
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,14 +10,14 @@
           justify-content: center;
 }
 
-landing-container {
+.landing-container {
   text-align: center;
 }
 
 .circle-ripple {
   background-color: #35ffc3;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   -webkit-animation: ripple 0.7s linear infinite;
           animation: ripple 0.7s linear infinite;
@@ -53,36 +53,36 @@ landing-container {
 }
 
 .intro {
-  margin-top: 15%;
-  padding-top: 30%;
+  margin-top: 10%;
+  padding-top: 20%;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, transparent), color-stop(70%, #252A2E));
   background-image: linear-gradient(transparent 30%, #252A2E 70%);
-  height: 40vh;
+  height: 35vh;
   z-index: 0;
   text-align: center;
 }
 
 .intro h2 {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .intro h6 {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .social li a {
   color: white;
   border: 1px solid white;
   border-radius: 50%;
-  font-size: 200%;
+  font-size: 150%;
   text-align: center;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .social li a i {
-  width: 49.3321px;
-  height: 66.665px;
+  width: 37px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -105,8 +105,8 @@ landing-container {
 
 @media only screen and (min-width: 768px) {
   .intro {
-    margin-top: 15%;
-    padding-top: 20%;
+    margin-top: 10%;
+    padding-top: 15%;
   }
 }
 /*# sourceMappingURL=landing.css.map */

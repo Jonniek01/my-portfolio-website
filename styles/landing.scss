@@ -6,7 +6,7 @@ $back2:#252A2E;
 .landing{
       background-image: url("../resources/top_sider_bg.jpg");
 
-      height: 100vh; 
+      height: 80vh; 
       width: 100%;
   
       background-position: center;
@@ -15,7 +15,7 @@ $back2:#252A2E;
       justify-content: center;
 
 }
-landing-container{
+.landing-container{
   text-align: center;
 }
 
@@ -26,8 +26,8 @@ $color: #65ff78;
 
 .circle-ripple {
   background-color: #35ffc3;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   animation: ripple 0.7s linear infinite;
   z-index:1;
@@ -56,17 +56,17 @@ $color: #65ff78;
 
 
 .intro{
-  margin-top: 15%;
-  padding-top:30%;
+  margin-top: 10%;
+  padding-top:20%;
   background-image: linear-gradient(transparent 30%, $back2 70%);
-    height:40vh;
+    height:35vh;
   z-index:0;
   text-align: center;
   h2{
-    margin-bottom:5%;
+    margin-bottom:2%;
   }
   h6{
-    margin-bottom:10%;
+    margin-bottom:5%;
   }
 
 }
@@ -77,11 +77,11 @@ $color: #65ff78;
       a{color: white;
           border: 1px solid white;
           border-radius: 50%;
-          font-size: 200%;
+          font-size: 150%;
           text-align: center;
           transition: 0.5s;
-          i{width: 49.3321px;
-              height:66.665px;
+          i{width:37px;
+              height:50px;
               border-radius: 50%;
               
 
@@ -107,8 +107,8 @@ $color: #65ff78;
 
 @media only screen and (min-width: 768px) {
   .intro{
-  margin-top: 15%;
-  padding-top:20%;
+  margin-top: 10%;
+  padding-top:15%;
   }
 
 }
