@@ -1,0 +1,146 @@
+$color1:#FFFFFF;
+$color2:#65ff78;
+$back1:#1E2326;
+$back2:#252A2E;
+.skills-div{
+    padding-top:2%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:$back2;
+    h3{
+       text-align:center;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    .proffesional{
+        h3{
+            text-align:left;
+            margin-left:10%;
+
+        }
+    
+    }
+        .technical{
+        h3{
+            text-align:left;
+            margin-left:10%;
+
+        }
+    
+    }
+
+    .skl-bar{
+        margin-left:10%;
+    }
+    
+
+.skills-container{
+    width:100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.technical{
+    width:150%;
+}
+.proffesional{
+    width:150%;
+}
+
+}
+.technical{
+    margin-top:10%;
+
+}
+
+
+//skills bar
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+
+    border: 1.5px solid $color2;
+
+    border-radius: 20px;
+
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 5px;
+    border-radius: 8px;
+    background-color: $color2;
+
+
+}
+
+.skills:not(:last-child){
+    margin-bottom: 15px;
+}
+
+#bar1{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 97%;
+    }
+}
+
+
+#bar2{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 96.5%;
+    }
+}
+
+
+#bar3{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 98%;
+    }
+}
+
+
+#bar4{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 96%;
+    }
+} 
+
+
+.cor2{
+    color:$color2;
+
+}
+
+.proffesional{
+    margin-top:10%;
+}
+
+
+
+
+
+
+
+
+
+
+

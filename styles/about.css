@@ -45,7 +45,8 @@
 }
 
 .personal h3 {
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
   margin-bottom: 2%;
 }
 
@@ -67,7 +68,6 @@
 }
 
 .interests h3 {
-  text-align: center;
   margin-bottom: 2%;
 }
 

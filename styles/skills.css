@@ -1,0 +1,155 @@
+.skills-div {
+  padding-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #252A2E;
+}
+
+.skills-div h3 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .proffesional h3 {
+    text-align: left;
+    margin-left: 10%;
+  }
+  .technical h3 {
+    text-align: left;
+    margin-left: 10%;
+  }
+  .skl-bar {
+    margin-left: 10%;
+  }
+  .skills-container {
+    width: 100vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+  .technical {
+    width: 150%;
+  }
+  .proffesional {
+    width: 150%;
+  }
+}
+
+.technical {
+  margin-top: 10%;
+}
+
+.details {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bar {
+  position: relative;
+  border: 1.5px solid #65ff78;
+  border-radius: 20px;
+}
+
+.bar div {
+  position: relative;
+  width: 0;
+  height: 5px;
+  border-radius: 8px;
+  background-color: #65ff78;
+}
+
+.skills:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+#bar1 {
+  -webkit-animation: html-fill 2s forwards;
+          animation: html-fill 2s forwards;
+}
+
+@-webkit-keyframes html-fill {
+  100% {
+    width: 97%;
+  }
+}
+
+@keyframes html-fill {
+  100% {
+    width: 97%;
+  }
+}
+
+#bar2 {
+  -webkit-animation: css-fill 2s forwards;
+          animation: css-fill 2s forwards;
+}
+
+@-webkit-keyframes css-fill {
+  100% {
+    width: 96.5%;
+  }
+}
+
+@keyframes css-fill {
+  100% {
+    width: 96.5%;
+  }
+}
+
+#bar3 {
+  -webkit-animation: js-fill 2s forwards;
+          animation: js-fill 2s forwards;
+}
+
+@-webkit-keyframes js-fill {
+  100% {
+    width: 98%;
+  }
+}
+
+@keyframes js-fill {
+  100% {
+    width: 98%;
+  }
+}
+
+#bar4 {
+  -webkit-animation: jQuery-fill 2s forwards;
+          animation: jQuery-fill 2s forwards;
+}
+
+@-webkit-keyframes jQuery-fill {
+  100% {
+    width: 96%;
+  }
+}
+
+@keyframes jQuery-fill {
+  100% {
+    width: 96%;
+  }
+}
+
+.cor2 {
+  color: #65ff78;
+}
+
+.proffesional {
+  margin-top: 10%;
+}
+/*# sourceMappingURL=skills.css.map */
