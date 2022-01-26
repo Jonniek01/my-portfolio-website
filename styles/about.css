@@ -42,10 +42,10 @@
 
 .personal {
   margin-top: 5%;
-  margin-left: 10%;
 }
 
 .personal h3 {
+  text-align: center;
   margin-bottom: 2%;
 }
 
@@ -57,12 +57,17 @@
   margin-bottom: 1%;
 }
 
+.details-container {
+  margin-left: 8%;
+}
+
 .interests {
   margin-top: 5%;
   margin-left: 10%;
 }
 
 .interests h3 {
+  text-align: center;
   margin-bottom: 2%;
 }
 
@@ -109,6 +114,7 @@ a {
   color: white;
   font-size: 150%;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .interest h6 {
@@ -138,7 +144,13 @@ a {
     margin-left: 20%;
   }
   .personal {
-    margin-left: 20%;
+    margin-left: 10%;
+  }
+  .personal h3 {
+    text-align: left;
+  }
+  .details-container {
+    margin-left: 5%;
   }
   .interests-container {
     display: -ms-grid;
