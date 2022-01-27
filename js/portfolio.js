@@ -14,12 +14,12 @@ var portfolios=[
     category:"design",
     image:"../resources/sos.png",
     title:"SOSPETER",
-    link:"http://sospeter.afristarstech.comiteke.com/?i=1",
+    link:"http://sospeter.afristarstech.com",
         description:"A portfolio Website"
 
      },
     {
-    id:1,
+    id:3,
     category:"innovation",
     image:"../resources/selonla.png",
     title:"SELONLA",
@@ -68,10 +68,5 @@ let cite= document.getElementById("cite");
 
 
       }
-      console.log(window.innerWidth)
-
-      console.log("False")
-
-  }
-
+    }
 

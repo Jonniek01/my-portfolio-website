@@ -1,0 +1,58 @@
+
+$color1:#FFFFFF;
+$color2:#65ff78;
+$back1:#1E2326;
+$back2:#252A2E;
+
+
+.contact{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+
+    h3{ 
+            margin-top: 2%;
+       text-align:center;
+    }
+
+}
+
+
+
+
+
+#contact{
+      background-image: url("../resources/contact_bg.png");
+
+      width: 100%;
+  
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: center;
+
+}
+.form-control{
+    background-color:$back2;
+    border:0px;
+}
+@media only screen and (min-width:768px) {
+
+.contact-body{
+    margin-top: 5%;
+    width:100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    form{
+        padding-left:15%;
+        padding-right:10%;
+
+    }
+
+
+}
+
+}

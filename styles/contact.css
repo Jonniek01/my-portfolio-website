@@ -1,0 +1,51 @@
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+.contact h3 {
+  margin-top: 2%;
+  text-align: center;
+}
+
+#contact {
+  background-image: url("../resources/contact_bg.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-control {
+  background-color: #252A2E;
+  border: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-body {
+    margin-top: 5%;
+    width: 100vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+  .contact-body form {
+    padding-left: 15%;
+    padding-right: 10%;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

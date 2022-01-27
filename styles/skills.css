@@ -11,6 +11,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #252A2E;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 .skills-div h3 {
