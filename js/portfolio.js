@@ -23,7 +23,7 @@ var portfolios=[
     category:"innovation",
     image:"../resources/selonla.png",
     title:"SELONLA",
-    link:"https://selonla.netlify.app",
+    link:"selonla.html",
     description:"My project for Google solution challenge 2022"
 
      }

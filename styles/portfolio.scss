@@ -140,4 +140,39 @@ $back2:#252A2E;
 
 
 }
+.more{
+  width:100px;
+  padding:3px;
+  text-align:center;
+  background-color:$color2;
+  text-align: center;
+  border-radius:3px;
+}
+.more:hover{
+  background-color:rgb(8, 8, 71);
+
+
+}
+
+.morediv{
+
+  text-align: center;
+}
+.buttons{
+  text-align:center;
+  button{
+    background-color:$color2;
+    color:white;
+  
+  
+  }
+  
+  button:hover{
+      background-color:rgb(8, 8, 71);
+  
+  }
+  
+
+}
+
 

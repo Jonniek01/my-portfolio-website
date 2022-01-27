@@ -22,4 +22,15 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+footer {
+  width: 100vw;
+  height: 8vh;
+  text-align: center;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+}
 /*# sourceMappingURL=index.css.map */

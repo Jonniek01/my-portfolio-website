@@ -121,4 +121,34 @@
     opacity: 1;
   }
 }
+
+.more {
+  width: 100px;
+  padding: 3px;
+  text-align: center;
+  background-color: #65ff78;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.more:hover {
+  background-color: #080847;
+}
+
+.morediv {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  background-color: #65ff78;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: #080847;
+}
 /*# sourceMappingURL=portfolio.css.map */
