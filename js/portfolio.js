@@ -62,12 +62,14 @@ let cite= document.getElementById("cite");
 
 
   cite.onclick=()=>{
-      if(( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 )){
+      if( window.innerWidth <= 800 ){
         alert("citeke.com is a desktop site.");
         console.log("true")
 
 
       }
+      console.log(window.innerWidth)
+
       console.log("False")
 
   }
