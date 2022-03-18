@@ -14,7 +14,7 @@ var portfolios=[
     category:"design",
     image:"../resources/sos.png",
     title:"SOSPETER",
-    link:"http://sospeter.afristarstech.com",
+    link:"https://sosgitonga.netlify.app/",
         description:"A portfolio Website"
 
      },
