@@ -1,7 +1,7 @@
 var portfolios=[
   {
     id:1,
-    category:"Utility",
+    category:"utility",
     image:"../resources/p/wea.jpg",
     title:"WeatherApp PWA",
     link:"https://weatherpapp.netlify.app/",
@@ -10,7 +10,7 @@ var portfolios=[
      },
      {
       id:2,
-      category:"Finance",
+      category:"finance",
       image:"../resources/p/cryp.jpg",
       title:"CyptoTracker App",
       link:"https://cryptopriceapp.netlify.app",
@@ -19,7 +19,7 @@ var portfolios=[
        },
     {
     id:3,
-    category:"health",
+    category:"innovation",
     image:"../resources/p/cite.png",
     title:"CITE",
     link:"https://citeke.com",
@@ -126,3 +126,51 @@ let cite= document.getElementById("cite");
       }
     }
 
+    function renderFiltered(cat){
+      document.getElementById('portf').innerHTML = portfolios.filter(portfolio=>portfolio.category==cat).map(portfolio => 
+          `
+          <div class="container" >
+          <div class="content " >
+            <a href="${portfolio.link}" target="_blank" id="${portfolio.jid}">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="${portfolio.image}">
+              <div class="content-details fadeIn-bottom">
+                <h3 class="content-title cor2" >${portfolio.title}</h3>
+                <p class="content-text">${portfolio.description}. <span class="cor2">Click to learn more<span></p>
+  
+              </div>
+  
+            </a>
+          </div>
+        </div>
+  
+          `
+  
+          ).join('')
+  }
+
+  function renderDesign(){
+    let cat="design";
+    renderFiltered(cat)
+  }
+  function renderUtility(){
+    let cat="utility";
+    renderFiltered(cat)
+  }
+  function renderFinance(){
+    let cat="finance";
+    renderFiltered(cat)
+  }
+  function renderInnovation(){
+    let cat="innovation";
+    renderFiltered(cat)
+  }
+  function renderGaming(){
+    let cat="gaming";
+    renderFiltered(cat)
+  }
+
+
+
+
+    
