@@ -2,7 +2,7 @@ var portfolios=[
   {
     id:1,
     category:"Utility",
-    image:"../resources/sos.png",
+    image:"../resources/p/wea.jpg",
     title:"WeatherApp PWA",
     link:"https://weatherpapp.netlify.app/",
         description:"Check Weather Forecast for anywhere in the world"
@@ -11,7 +11,7 @@ var portfolios=[
      {
       id:2,
       category:"Finance",
-      image:"../resources/sos.png",
+      image:"../resources/p/cryp.jpg",
       title:"CyptoTracker App",
       link:"https://cryptopriceapp.netlify.app",
           description:"Cryptocurrency Prices Tracker App"
@@ -20,7 +20,7 @@ var portfolios=[
     {
     id:3,
     category:"health",
-    image:"../resources/cite.png",
+    image:"../resources/p/cite.png",
     title:"CITE",
     link:"https://citeke.com",
     jid:"cite",
@@ -30,7 +30,7 @@ var portfolios=[
      {
       id:4,
       category:"innovation",
-      image:"../resources/cite.png",
+      image:"../resources/p/selonn.jpeg",
       title:"Selonn",
       link:"https://selonn.netlify.app",
       description:"Google solution challenge 2022 Project"
@@ -39,7 +39,7 @@ var portfolios=[
        {
         id:5,
         category:"utility",
-        image:"../resources/cite.png",
+        image:"../resources/p/new.jpg",
         title:"New Year CountDown",
         link:"https://newyearc.netlify.app",
         description:"Eternal New Year Countdown"
@@ -48,7 +48,7 @@ var portfolios=[
          {
           id:6,
           category:"design",
-          image:"../resources/cite.png",
+          image:"../resources/p/me0.jpg",
           title:"JOHN",
           link:"https://jonn.netlify.app",
           description:"My Portfolio"
@@ -57,7 +57,7 @@ var portfolios=[
     {
     id:7,
     category:"design",
-    image:"../resources/sos.png",
+    image:"../resources/p/sos0.jpg",
     title:"SOSPETER",
     link:"https://sosgitonga.netlify.app/",
         description:"A portfolio Website"
@@ -66,7 +66,7 @@ var portfolios=[
      {
       id:8,
       category:"gaming",
-      image:"../resources/cite.png",
+      image:"../resources/p/drivej.jpg",
       title:"DriveJ",
       link:"https://drivej.netlify.app",
       description:"A desktop Car Driving Game"
@@ -75,7 +75,7 @@ var portfolios=[
        {
         id:9,
         category:"gaming",
-        image:"../resources/cite.png",
+        image:"../resources/p/leeny.webp",
         title:"Lenny Plane",
         link:"https://lenyplane.netlify.app",
         description:"This fighter Planes will take you down!"
