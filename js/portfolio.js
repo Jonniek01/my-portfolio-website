@@ -1,16 +1,61 @@
 var portfolios=[
-    {
+  {
     id:1,
+    category:"Utility",
+    image:"../resources/sos.png",
+    title:"WeatherApp PWA",
+    link:"https://weatherpapp.netlify.app/",
+        description:"Check Weather Forecast for anywhere in the world"
+
+     },
+     {
+      id:2,
+      category:"Finance",
+      image:"../resources/sos.png",
+      title:"CyptoTracker App",
+      link:"https://cryptopriceapp.netlify.app",
+          description:"Cryptocurrency Prices Tracker App"
+  
+       },
+    {
+    id:3,
     category:"health",
     image:"../resources/cite.png",
     title:"CITE",
-    link:"https://citeke.com/about.html",
+    link:"https://citeke.com",
     jid:"cite",
     description:"WaziUp innovations 2021"
 
      },
+     {
+      id:4,
+      category:"innovation",
+      image:"../resources/cite.png",
+      title:"Selonn",
+      link:"https://selonn.netlify.app",
+      description:"Google solution challenge 2022 Project"
+  
+       },
+       {
+        id:5,
+        category:"utility",
+        image:"../resources/cite.png",
+        title:"New Year CountDown",
+        link:"https://newyearc.netlify.app",
+        description:"Eternal New Year Countdown"
+    
+         },
+         {
+          id:6,
+          category:"design",
+          image:"../resources/cite.png",
+          title:"JOHN",
+          link:"https://jonn.netlify.app",
+          description:"My Portfolio"
+      
+           },
     {
-    id:2,
+    id:7,
     category:"design",
     image:"../resources/sos.png",
     title:"SOSPETER",
@@ -18,15 +63,26 @@ var portfolios=[
         description:"A portfolio Website"
 
      },
-    {
-    id:3,
-    category:"innovation",
-    image:"../resources/selonla.png",
-    title:"SELONLA",
-    link:"selonla.html",
-    description:"My project for Google solution challenge 2022"
+     {
+      id:8,
+      category:"gaming",
+      image:"../resources/cite.png",
+      title:"DriveJ",
+      link:"https://drivej.netlify.app",
+      description:"A desktop Car Driving Game"
+  
+       },
+       {
+        id:9,
+        category:"gaming",
+        image:"../resources/cite.png",
+        title:"Lenny Plane",
+        link:"https://lenyplane.netlify.app",
+        description:"This fighter Planes will take you down!"
+    
+         }
+  
 
-     }
     
 ]
 

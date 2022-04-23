@@ -17,6 +17,11 @@ $back2:#252A2E;
     }
 
 }
+#portf{
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 
 
@@ -26,19 +31,22 @@ $back2:#252A2E;
 
 .container{
   padding: 1em 0;
-  float: left;
-  width: 50%;
-}
-@media screen and (max-width: 640px){
-  .container{
-    display: block;
-    width: 100%;
-  }
 }
 
+@media screen and (min-width: 780px){
+  #portf{
+    padding: 0.5rem 2.5rem;
+
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  }
+
 @media screen and (min-width: 900px){
-  .container{
-    width: 33.33333%;
+  #portf{
+    padding: 1rem 5rem;
+
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -113,6 +121,13 @@ $back2:#252A2E;
 .fadeIn-bottom{
   top: 80%;
 }
+@media screen and (max-width: 768px){
+
+  .fadeIn-bottom{
+    top: 40%;
+  }
+  }
+  
 
 
 @media only screen and (min-width:768px) {
